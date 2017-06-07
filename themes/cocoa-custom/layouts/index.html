@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+<section class="main">
+    <div class="container">
+        <div class="content">
+            {{ if .Content }}
+                <div class="markdown">
+                    {{ .Content }}
+                </div>
+            {{ end }}
+            {{ $totalpostscount := len (where .Data.Pages "Section" "blog") }}
+            {{ $latestpostscount := .Site.Params.latestpostscount | default $totalpostscount }}
+    </div>
+</section>
+{{ partial "footer.html" . }}
+

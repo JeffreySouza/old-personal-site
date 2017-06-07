@@ -1,0 +1,63 @@
+baseurl             = "https://yourfriendjeff.com/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-US"
+layoutdir           = "layouts"
+publishDir          = "public"
+theme               = "cocoa-custom"
+author              = "Jeff Souza"
+title               = "Jeff Souza"
+pygmentsuseclasses  = true
+disqusshortname     = "jeffsouza"
+pluralizelisttitles = false
+googleAnalytics     = "UA-100666835-1"
+
+[permalinks]
+fixed = ":title/"
+blog  = "blog/:slug/"
+
+[[menu.main]]
+name                   = "Projects"
+weight                 = -120
+identifier             = "projects"
+url                    = "/projects/"
+
+[[menu.main]]
+name                   = "Resume"
+weight                 = -110
+identifier             = "resume"
+url                    = "/resume_cv.pdf"
+
+[params]
+latestpostscount       = 5                             # how many posts to display on the home page
+i18n_flags             = false                         # whether to display small country flags for available translations
+author                 = "Jeff Souza"
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+dateform               = "Jan 2, 2006"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+description            = "Software Engineer"
+email                  = "jeffreymsouza@gmail.com"
+extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
+faviconfile            = "img/favicon.ico"
+github                 = "//github.com/JeffreySouza"
+highlightjs            = true
+lang                   = "en"
+linkedin               = "//linkedin.com/in/jeffreysouza"
+noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
+selfintro              = ""                            # appears in the site header when set to a non-empty string
+twitter                = "//twitter.com/1inchboy"
+# mastodon               = "//example.com/@you"
+# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
+# highlightjsStyle     = "darcula"
+
+piwik				   = false                         # If true, Piwik integration is enabled
+# piwik_url            = "//www.example.com/piwik/"    # URL to your Piwik installation. Must End with a slash
+# piwik_id			   = 2                             # Id of your site in Piwik
+
+avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+# gravatar             = ""                # do not use in the same time as avatar
+
+# The following are DEPRECATED.
+# gatracker              = "XYZ" # use googleAnalytics instead
+# initials               = "ad"  # displayed on single post page; deprecated in v0.3.0.
