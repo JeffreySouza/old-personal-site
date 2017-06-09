@@ -12,4 +12,4 @@ We have been Greenlit on [Steam](https://steamcommunity.com/sharedfiles/filedeta
 An alpha build is also available for download on [itch.io](https://pixel-island.itch.io/a-boy-and-his-beard)
 
 ### Trailer
-Watch the trailer on [YouTube](https://www.youtube.com/channel/UCBQB7b9CU-cr4ZoWiOW5WKA)
+Watch the trailer on [YouTube](https://www.youtube.com/watch?v=gRscUM2aGpc)
